@@ -41,8 +41,8 @@ eureka:
     
 logging:
   level:
-    ROOT: ERROR
-    org.springframework.web: ERROR
+    ROOT: DEBUG
+    org.springframework.web: DEB
     com.enrico.microservices: DEBUG
   file:  /tmp/logs/application.log
   pattern:

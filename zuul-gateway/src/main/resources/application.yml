@@ -28,6 +28,9 @@ zuul:
       path: /uaa/**
       stripPrefix: false
       serviceId: auth-server
+    gallery-service:
+      serviceId: gallery-service
+      path: /gallery/**   
   
 eureka:
   instance:

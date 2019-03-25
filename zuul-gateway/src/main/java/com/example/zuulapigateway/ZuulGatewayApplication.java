@@ -1,4 +1,4 @@
-package com.enrico.microservices.zuul;
+package com.example.zuulapigateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

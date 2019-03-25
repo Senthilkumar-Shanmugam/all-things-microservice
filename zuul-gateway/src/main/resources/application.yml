@@ -19,18 +19,14 @@ endpoints:
 zuul:
   ignoredServices: "*"
   routes:
-    ms-got:  
-      sensitiveHeaders:
-      path: /**
-      serviceId: ms-got  
-    auth-server:  
-      sensitiveHeaders:
-      path: /uaa/**
-      stripPrefix: false
-      serviceId: auth-server
     gallery-service:
       serviceId: gallery-service
-      path: /gallery/**   
+      path: /gallery/** 
+    auth-service:
+      serviceId: auth-service
+      path: /auth/**
+      stripPrefix: false
+      sensitiveHeaders: Cookie,Set-Cookie  
   
 eureka:
   instance:

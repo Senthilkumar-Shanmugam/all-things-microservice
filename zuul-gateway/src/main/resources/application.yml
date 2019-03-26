@@ -26,7 +26,8 @@ zuul:
       serviceId: auth-service
       path: /auth/**
       stripPrefix: false
-      sensitiveHeaders: Cookie,Set-Cookie  
+      sensitiveHeaders: 
+         
   
 eureka:
   instance:
